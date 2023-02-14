@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscrição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="caixa1">
+        <h1> Cadastro de usuário</h1>
+
+        <div id="formulario">
+            <label for="">Nome</label>
+            <br>
+            <input type="text" id="nome">
+            <br>
+            <label for="">Sobrenome</label>
+            <br>
+            <input type="text" id="sobrenome">
+            <br>
+            <label for="">Idade</label>
+            <br>
+            <input type="text" id="idade">
+            <br>
+            <label for="">Estado civil</label>
+            <br>
+            <input type="text" id="estadocivil">
+            <br>
+            <label for="">RG</label>
+            <br>
+            <input type="text" id="rg">
+            <br>
+            <label for="">CPF</label>
+            <br>
+            <input type="text" id="cpf">
+            <br>
+            <label for="">Celular</label>
+            <br>
+            <input type="text" id="celular">
+            <br>
+            <label for="">Endereço</label>
+            <br>
+            <input type="text" id="endereço">
+        </div>
+
+
+        <div class="botao">
+            <button onclick="guardaformulario()">Enviar</button>
+        </div>
+    </div>
+
+    <div class="print">
+        <div id="nomeimprimir"></div>
+        <div id="sobrenomeimprimir"></div>
+        <div id="idadeimprimir"></div>
+        <div id="estadocivilimprimir"></div>
+        <div id="rgimprimir"></div>
+        <div id="cpfimprimir"></div>
+        <div id="celularimprimir"></div>
+        <div id="endereçoimprimir"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
